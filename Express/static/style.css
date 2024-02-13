@@ -1,0 +1,116 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(8, 8, 8);
+    margin: 0px;
+    padding: 0px;
+    /* url ()=link of background image */
+    background: url('../static/img/gym.png.jpg') no-repeat center fixed;
+    height: 100%;
+    width: 100%;
+    border-radius: 65px;
+}
+
+.left {
+
+    left: 34px;
+    top: 20px;
+    position: absolute;
+    display: inline-block;
+}
+
+.left img {
+    width: 120px;
+    border-radius: 60px;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 51px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+
+    display: inline-block;
+    font-size: 29px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px;
+    font-size: 29px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: red;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px 9px;
+    background-color: white;
+    color: black;
+    padding: 4px 14px;
+    border: black;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: red;
+
+}
+
+.container {
+    border: 2px solid whitesmoke;
+    margin: 202px 50px;
+    padding: 60px 60px;
+    width: 36%;
+    border-radius: 31px;
+}
+
+.formgroup input {
+    text-align: center;
+    display: block;
+    width: 369px;
+    padding: 16px 10px;
+    margin: 30px 17px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    color: white;
+}
+
+.container button {
+    display: block;
+    width: 300px;
+    margin: 30px 17px;
+    padding: 20px;
+    border-radius: 29px;
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+}
